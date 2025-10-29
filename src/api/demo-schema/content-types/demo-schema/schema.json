@@ -1,0 +1,41 @@
+{
+    "collectionName": "demo-schema",
+    "info": {
+        "singularName": "carousel-slide",
+        "pluralName": "carousel-slides",
+        "displayName": "Carousel Slide",
+        "description": "Slides used across various carousels"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "attributes": {
+        "carousel_tag": {
+            "type": "string",
+            "required": true
+        },
+        "image_url": {
+            "type": "string",
+            "required": true
+        },
+        "headline": {
+            "type": "string"
+        },
+        "subtext": {
+            "type": "text"
+        },
+        "cta_label": {
+            "type": "string"
+        },
+        "cta_link": {
+            "type": "string"
+        },
+        "order": {
+            "type": "integer"
+        },
+        "is_active": {
+            "type": "boolean",
+            "default": true
+        }
+    }
+}
