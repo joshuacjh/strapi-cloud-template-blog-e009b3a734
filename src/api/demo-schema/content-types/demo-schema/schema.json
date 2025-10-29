@@ -1,8 +1,8 @@
 {
     "collectionName": "demo-schema",
     "info": {
-        "singularName": "carousel-slide",
-        "pluralName": "carousel-slides",
+        "singularName": "demo-schema",
+        "pluralName": "demo-schemas",
         "displayName": "Carousel Slide",
         "description": "Slides used across various carousels"
     },
